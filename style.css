@@ -1,0 +1,230 @@
+body {
+  font-family: arial;
+  font-size: 15px;
+  background: #F7F7F7;
+  margin: 0px;
+}
+#container {
+  width: 1300px;
+  height: auto;
+  margin: 0px auto;
+  padding: 10px;
+}
+#container #header img {
+  width: 85px;
+}
+#container #header #user {
+  background: #c12f2f;
+  padding: 5px 10px;
+  overflow: hidden;
+}
+#container #header #user #tambah {
+  float: left;
+}
+#container #header #user #jabatan-user {
+  float: right;
+  color: white;
+  padding-right: 5px;
+  margin-top: 17px;
+  text-decoration: none;
+}
+#user #tambah-user #user-add {
+  color: white;
+  padding-right: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+}
+#menu #menu-samping .data-menu,
+.tambah{
+  color: black;
+  padding-right: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+#container #footer {
+  background: #c12f2f;
+  padding: 10px;
+}
+#container #footer #copyright {
+  color: white;
+  text-align: right;
+  font-size: 13px;
+  font-style: italic;
+  margin: 0px;
+}
+#container #footer #identitas {
+  color: white;
+  text-align: right;
+  font-size: 15px;
+  margin: 5px;
+}
+
+#container #menu #menu-samping {
+  float: left;
+  background-color: white;
+  background-position: center center;
+  box-shadow: 0 0 25px;
+  width: 28%;
+  height: 685px;
+  text-align: justify;
+  float: left;
+  padding: 0 8px;
+}
+#container #menu {
+  padding: 10px 0px;
+  overflow: hidden;
+}
+#container #menu #content {
+  float: right;
+  box-shadow: 0 0 25px;
+  width: 68%;
+  height: 685px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+  padding-bottom: 0.15px;
+  padding-left: 16px;
+  padding-top: 0.15px;
+}
+#table-1 {
+  width: 400px;
+  border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#table-2 {
+   width: 800px;
+  border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.table_data tr th{
+    background: #534F4F;
+    color: #fff;
+    font-weight: normal;
+}
+.short{
+  width: 50px;
+}
+ 
+.normal{
+ 	width: 150px;
+}
+table{
+  border-collapse: collapse;
+  font-family: arial;
+ 	color:#5E5B5C;
+} 
+thead th{
+   text-align: left;
+   padding: 10px;
+} 
+tbody td{
+  border-top: 1px solid #e3e3e3;
+  padding: 10px;
+} 
+tbody tr:nth-child(even){
+	background: #F6F5FA;
+} 
+tbody tr:hover{
+	background: #EAE9F5
+}
+.table_data .link-table {
+  color: #5E5B5C;
+  text-decoration: none;
+}
+.garis-data {
+  margin-top: 20px;
+  padding: 20px;
+  width: 650px;
+  border-radius: 5px;
+}
+#content_data-pasien {
+  margin-top: 20px;
+}
+#garis-data-poli {
+    margin-top: 20px;
+    padding: 20px;
+    width: 275px;
+    border-radius: 5px;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#content {
+  width: 350px;
+  height: auto;
+}
+#content_add-pasien, #content_edit-pasien,
+#content_add-daftar, #content_add-user {
+  width: 350px;
+  height: auto;
+  margin: 100px auto;
+}
+#content_edit-daftar{
+  width: 350px;
+  height: auto;
+  margin: 100px auto;
+}
+#content_utama {
+  width: 500px;
+  height: auto;
+  margin: 150px auto;
+}
+#content_utama #out {
+  color: #c12f2f;
+  padding-right: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+}
+.element-form {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+}
+.element-form {
+  margin-bottom: 15px;
+}
+.element-form label {
+  display: block;
+}
+.element-form span {
+  display: block;
+}
+.element-form span input[type="text"],
+.element-form span input[type="password"],
+.element-form span textarea{
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.element-form span input[type="submit"] {
+  background: #BA1E1E;
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 3px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.element-form span input[type="submit"]:hover{
+    background: orange;
+}
+.notif {
+    color: green;
+}
+
+.notif-del {
+  color: red;
+}
